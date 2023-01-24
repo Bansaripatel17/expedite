@@ -1,0 +1,87 @@
+/*Footer with waves*/
+
+  .footer {
+    position: relative;
+    /* background: #05b3a4; */
+    background: #3b36b6;
+
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin-top: 8em; */
+  
+  }
+  
+  .footer-menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8em 0;
+    flex-wrap: wrap;
+  }
+  .footer__item {
+    list-style: none;
+  }
+
+  
+
+
+  
+  .footer__link {
+    font-size: 1.4rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 1.0s;
+    text-decoration: none;
+    opacity: 0.75;
+    font-weight: 300;
+  }
+  .footer__link:hover{
+      color: white;
+      opacity: 1;
+      font-size: 1.4rem;
+  }
+  
+  .footer p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+ 
+ 
+  /* --wave-- */
+  div.waves{
+    width: 100%;
+    bottom: 0;
+    /*height: 100%;*/
+    position: absolute;
+    z-index: 99;
+  }
+ 
+  svg #wave1{
+    z-index: 999;
+    opacity: 0.6;
+    bottom: 10;
+    left: 0;
+    animation: animate 2s linear infinite;
+  }
+
+  
+  
+ 
+ 
+  
+  @keyframes animate {
+    0% {
+      background-position-x: -100em;
+    }
+    100% {
+      background-positon-x: 0px;
+    }
+  }
