@@ -103,7 +103,7 @@ src="../assets/img/logo.png"
             <div className="container">
   <div className="row">
     <div className="col-md-12 text-center">
-      <h3 className="animate-charcter"> Expedite</h3>
+      <h3 > E X P E D I T E</h3>
     </div>
   </div>
 </div>
@@ -233,7 +233,7 @@ const themeStyles={
 
   return (
   
-    <div style={themeStyles}>
+    <div >
         <Router>
     
          

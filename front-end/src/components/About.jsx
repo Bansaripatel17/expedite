@@ -15,9 +15,9 @@ export default function About() {
         </div>
       </div>
       <div className="text-wrapper">
-        <p className= "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita eaque deserunt aliquam. Provident labore molestias sequi autem deleniti eaque nisi corporis eveniet perferendis, ut iusto, recusandae praesentium harum distinctio iste!
+        <p className= "text">CONTENT WILL BE ADDED HERE
         </p>
-        <p className= "text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, fugit. Aperiam dignissimos voluptates praesentium fugit facere maiores, dolorum obcaecati maxime.
+        <p className= "text">!work in progress!
         </p>
         <div className="btn-wrapper">
           <a href="#" className="btn">
